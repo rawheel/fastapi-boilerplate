@@ -1,9 +1,7 @@
 # FastAPI Boilerplate
 
-
-create **.env** file in root folder fastapi-boilerplate/.env
-
 ## Step 1
+create **.env** file in root folder fastapi-boilerplate/.env
 ```
 DATABASE_URL=postgresql+psycopg2://postgres:password@db:5432/boiler_plate_db
 DB_USER=postgres
