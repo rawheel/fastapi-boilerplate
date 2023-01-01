@@ -23,7 +23,7 @@ async def get_sneakers(db: Session = Depends(get_db)):
 
 
 @router.post("/sneakers", status_code=201)
-async def add_sneakers(payload: SneakerSchema, db: Session = Depends(get_db)):
+async def add_sneaker(payload: SneakerSchema, db: Session = Depends(get_db)):
     
     """
     Add sneaker in the database.
@@ -48,7 +48,7 @@ async def add_sneakers(payload: SneakerSchema, db: Session = Depends(get_db)):
     return payload
 
 @router.put("/sneakers/{sneaker_id}", status_code=201)
-async def update_sneakers(sneaker_id: int,payload: SneakerSchema, db: Session = Depends(get_db)):
+async def update_sneaker(sneaker_id: int,payload: SneakerSchema, db: Session = Depends(get_db)):
     
     """
     Updates the sneaker object in db
@@ -79,7 +79,7 @@ async def update_sneakers(sneaker_id: int,payload: SneakerSchema, db: Session = 
     return sneaker
 
 @router.delete("/sneakers/{sneaker_id}", status_code=204)
-async def delete_sneakers(sneaker_id: int, db: Session = Depends(get_db)):
+async def delete_sneaker(sneaker_id: int, db: Session = Depends(get_db)):
     """
     Deletes the sneaker object from db
 
