@@ -13,7 +13,6 @@ class Sneaker(Base):
     size = Column(Integer, index=True)
     color = Column(String, index=True)
     free_delivery = Column(Boolean, index=True)
-    
+
     class Config:
         orm_mode = True
-    
