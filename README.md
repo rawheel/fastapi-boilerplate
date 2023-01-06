@@ -21,7 +21,7 @@
 ✅ Token Authentication.\
 ✅ Logging Mechanism.\
 ✅ Testcases TDD with Pytest. \
-✅ Seperate Database(Sqlite) adn mock session configured for test cases.
+✅ Seperate Database(Sqlite) and mock session configured for test cases.
 
 
 # ⚒️ Techologies Used
