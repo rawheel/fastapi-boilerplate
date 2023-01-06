@@ -21,7 +21,8 @@
 ✅ Token Authentication.\
 ✅ Logging Mechanism.\
 ✅ Testcases TDD with Pytest. \
-✅ Seperate Database(Sqlite) and mock session configured for test cases.
+✅ Seperate Database(Sqlite) and mock session configured for test cases.\
+✅ Poetry dependency management and packaging made easy. (Better than pip)
 
 
 # ⚒️ Techologies Used
@@ -30,7 +31,7 @@
 - SQLAlchemy: For ORM.
 - Pydantic: For Typing or Serialization.
 - Pytests: For TDD or Unit Testing.
-- Poetry: For Package management. (Better than pip)
+- Poetry: Python dependency management and packaging made easy. (Better than pip)
 - Docker & docker-compose : For Virtualization.
 - postgresSQL: Database.
 - Loguru: Easiest logging ever done.
