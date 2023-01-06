@@ -20,8 +20,7 @@
 ✅ CRUD APIs (Sneaker App).\
 ✅ Token Authentication.\
 ✅ Logging Mechanism.\
-✅ Testcases with FastAPI, Pytest. \
-✅ Test Driven Development.\
+✅ Testcases TDD with Pytest. \
 ✅ Seperate Database(Sqlite) adn mock session configured for test cases.
 
 
