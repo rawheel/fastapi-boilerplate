@@ -34,6 +34,7 @@
 - Poetry: Python dependency management and packaging made easy. (Better than pip)
 - Docker & docker-compose : For Virtualization.
 - postgresSQL: Database.
+- PgAdmin: To interact with the Postgres database sessions.
 - Loguru: Easiest logging ever done.
 
 # 🚀 Up and run in 5 mins 🕙
