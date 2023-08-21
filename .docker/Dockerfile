@@ -6,12 +6,13 @@ RUN apt-get update \
     && apt-get -y clean \
     && rm -rf /var/lib/apt/lists/* \
     && pip install gunicorn
-    
-ENV POETRY_HOME=/tmp/poetry
+
 RUN curl -sSL https://install.python-poetry.org/ | python3 -
-ENV PATH=$POETRY_HOME/bin:$PATH
-ENV PYTHONFAULTHANDLER=1
-ENV PYTHONUNBUFFERED=1
+    
+ENV POETRY_HOME=/tmp/poetry \
+    PATH=$POETRY_HOME/bin:$PATH \
+    PYTHONFAULTHANDLER=1 \
+    PYTHONUNBUFFERED=1
 
 WORKDIR /app
 COPY . /app
