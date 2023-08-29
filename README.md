@@ -53,11 +53,6 @@ X_TOKEN=12345678910
 
 ## Step 2
 ```
-docker-compose build
-```
-
-## Step 3
-```
 docker-compose up
 ```
 
